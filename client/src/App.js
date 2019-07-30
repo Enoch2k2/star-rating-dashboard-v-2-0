@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { AdminLayout } from './containers/admin';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Hello World!</h1>
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={ AdminLayout } />
+        </Switch>
+      </Router>
     );
   }
 }
