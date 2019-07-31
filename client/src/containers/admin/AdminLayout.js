@@ -8,7 +8,7 @@ export class AdminLayout extends Component {
       <div>
         <AdminNavbar />
         <div className="main">
-          <h1>Star Rating Admin Dashboard</h1>
+          <h1 class="center">Star Rating Admin Dashboard</h1>
         </div>
       </div>
     )

@@ -8,7 +8,7 @@ export class HomeLayout extends Component {
       <div>
         <HomeNavbar />
         <div className="main">
-          <h1>Star Rating Dashboard</h1>
+          <h1 class="center">Star Rating Dashboard</h1>
         </div>
       </div>
     )

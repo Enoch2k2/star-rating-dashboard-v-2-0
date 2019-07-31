@@ -17,3 +17,7 @@ code {
   clear: both;
   display: table;
 }
+
+.center {
+  text-align: center;
+}
