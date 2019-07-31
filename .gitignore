@@ -24,6 +24,3 @@
 
 # Ignore Notes file
 NOTES.md
-
-# Ignore vscode folder
-.vscode
