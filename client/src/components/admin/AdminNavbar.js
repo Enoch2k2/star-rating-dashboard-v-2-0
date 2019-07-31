@@ -17,8 +17,3 @@ export class AdminNavbar extends Component {
 }
 
 export default AdminNavbar
-
-// ## Navbar As Admin
-//   - Roles(add roles to users)
-//   - Technical Coach List(ratings, notes, comments from students)
-//     - Overall Ratings(Graph of Ratings, filtered by month / week / day)
