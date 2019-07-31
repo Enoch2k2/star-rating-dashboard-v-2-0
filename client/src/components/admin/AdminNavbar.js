@@ -5,12 +5,12 @@ export class AdminNavbar extends Component {
   render() {
     return (
       <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="#">Roles</Link></li>
-          <li><Link to="#">Technical Coach List</Link></li>
-          <li><Link to="#">Overall Ratings</Link></li>
-        </ul>
+        <div class="sidenav">
+          <Link to="/">Home</Link>
+          <Link to="/">Roles</Link>
+          <Link to="/">Technical Coach List</Link>
+          <Link to="/">Overall Ratings</Link>
+        </div>
       </nav>
     )
   }
