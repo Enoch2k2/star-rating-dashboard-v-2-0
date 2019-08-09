@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { AdminNavbar } from '../../components/admin';
+import '../../stylesheets/AdminLayout.css';
 
 export class AdminLayout extends Component {
   render() {
     return (
       <div>
         <AdminNavbar />
-        <h1>Hello World!</h1>
+        <div className="main">
+          <h1 class="center">Star Rating Admin Dashboard</h1>
+        </div>
       </div>
     )
   }
