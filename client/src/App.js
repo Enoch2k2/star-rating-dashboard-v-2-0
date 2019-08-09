@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={ AdminLayout } />
+          <Route exact path="/" component={ HomeLayout } />
         </Switch>
       </Router>
     );
